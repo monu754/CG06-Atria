@@ -1,0 +1,17 @@
+package com.tnsif.finalkeyworddemo;
+
+class UPIAPP{
+	//final 
+	int max = 10000;
+	
+	void showlimit() {
+		System.out.println("Amount "+max);
+	}
+}
+public class FinalVariable {
+	public static void main(String[] args ) {
+		UPIAPP up = new UPIAPP();
+		up.showlimit();
+		up.max=20000;
+	}
+}
